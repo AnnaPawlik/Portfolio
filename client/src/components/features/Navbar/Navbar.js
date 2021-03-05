@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
 import { faServer } from '@fortawesome/free-solid-svg-icons';
-import { faFile } from '@fortawesome/free-solid-svg-icons';
+import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import '../Navbar/Navbar.scss';
 
@@ -31,19 +31,19 @@ const NavBar = (props) => {
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/omnie' className="link">
+                <NavLink to='/technologie' className="link">
                     <FontAwesomeIcon className="icon" icon={faServer} />
                     <span>Technologie</span>
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/omnie' className="link">
-                    <FontAwesomeIcon className="icon" icon={faFile} />
+                <NavLink to='/projekty' className="link">
+                    <FontAwesomeIcon className="icon" icon={faFolderOpen} />
                     <span>Projekty</span>
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/omnie' className="link">
+                <NavLink to='/kontakt' className="link">
                     <FontAwesomeIcon className="icon" icon={faEnvelope} />
                     <span>Kontakt</span>
                 </NavLink>
