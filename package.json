@@ -1,0 +1,8 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AnnaPawlik/Portfolio.git",
+  "author": "Anna Pawlik <pawlikanna24@gmail.com>",
+  "license": "MIT"
+}
