@@ -7,6 +7,13 @@ class Header extends React.Component {
         return(
             <div className="header container-fluid">
                 <Navbar />
+                <div className="header-title">
+                    <p>Anna Pawlik</p>
+                    <p className="subtitle">Junior Front-End Developer</p>
+                    <div className="social-links">
+                        <h1>social</h1>
+                    </div>
+                </div>
             </div>
         );
     }

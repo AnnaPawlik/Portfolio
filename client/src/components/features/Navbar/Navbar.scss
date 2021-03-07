@@ -1,6 +1,7 @@
 .nav-menu {
     display: flex;
-    justify-content: flex-start;
+    justify-self: flex-start;
+    width: 30%;
 
     .navbar-links {
         display: flex;
