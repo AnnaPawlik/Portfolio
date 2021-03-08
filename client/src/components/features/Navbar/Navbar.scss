@@ -1,6 +1,7 @@
 .nav-menu {
     display: flex;
     justify-self: flex-start;
+    position: fixed;
     width: 30%;
 
     .navbar-links {
@@ -32,7 +33,7 @@
 
                 span {
                     display: block;
-                    padding: 5px;
+                    margin-left: 15px;
                 }
             }
             
