@@ -1,0 +1,59 @@
+.skills-stack {
+    [class*=col-] {
+        margin: 10px auto;
+    }
+
+    .icons {
+        font-size: 64px;
+        padding: 2px;
+    }
+
+    .icons-title {
+        display: block;
+        margin: 5px;
+    }
+
+    .html {
+        color: #E44D26;
+    }
+
+    .css {
+        color: #2262AF;
+    }
+
+    .sass {
+        color: #DA6999;
+    }
+
+    .bootstrap {
+        color: #674096;
+    }
+
+    .js {
+        color: #EFD81E;
+    }
+
+    .react {
+        color: #5DD2F3;
+    }
+    
+    .node {
+        color: #659A60;
+    }
+
+    .mongo {
+        color: #999595;
+    }
+
+    .git {
+        color: #E94E31;
+    }
+
+    .npm {
+        color: #C53635;
+    }
+
+    .yarn {
+        color: #2F8AB5;
+    }
+}
