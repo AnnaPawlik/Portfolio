@@ -15,9 +15,10 @@
 
         .subtitle {
             font-size: 26px;
-            color:  rgb(255, 183, 39);
+            font-family: "Popins", sans-serif;
+            color:  #0563bb;
             overflow: hidden;
-            border-right: .1em solid rgb(255, 183, 39); 
+            border-right: .1em solid #0563bb; 
             white-space: nowrap; 
             letter-spacing: .15em;
             animation: typing 5.5s steps(26, start),
@@ -37,7 +38,7 @@
                 transition: 0.3s;
 
                 &:hover {
-                    color: rgb(255, 183, 39);
+                    color: #0563bb;
                 }
             }
         }
@@ -51,5 +52,5 @@
   
 @keyframes caret {
     from, to { border-color: transparent }
-    50% { border-color:  rgb(255, 183, 39) }
+    50% { border-color:  #0563bb }
 }

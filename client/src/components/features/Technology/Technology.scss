@@ -1,4 +1,6 @@
 .skills-stack {
+    padding: 40px  0 0;
+
     [class*=col-] {
         margin: 10px auto;
     }
@@ -41,8 +43,8 @@
         color: #659A60;
     }
 
-    .mongo {
-        color: #999595;
+    .db {
+        color: #37AA52;
     }
 
     .git {

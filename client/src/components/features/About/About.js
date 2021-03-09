@@ -4,7 +4,7 @@ import SectionTitle from '../../common/SectionTitle/SectionTitle';
 class About extends React.Component {
     render() {
         return(
-            <div>
+            <div className="section container">
                 <SectionTitle>O mnie</SectionTitle>
             </div>
         );

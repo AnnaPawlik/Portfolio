@@ -1,0 +1,23 @@
+@import '../../../mixins';
+
+.contact {
+    background-color: #F7F8F9;
+    padding: 60px 0;
+
+    .icons {
+        @include icons;
+        background-color:#0563bb;
+        color: #f2f3f5;
+    }
+}
+
+@media (max-width: 786px) {
+    .contact {
+
+        .phone {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+    }
+}
