@@ -1,0 +1,19 @@
+.card {
+    width: 35%;
+
+    .link {
+        color: #0563bb;
+        
+        &:hover {
+            text-decoration: none;
+            background-color: #0563bb;
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
