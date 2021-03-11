@@ -1,8 +1,7 @@
 @import '../../../mixins';
 
 .contact {
-    background-color: #F7F8F9;
-    padding: 60px 0;
+   padding: 60px 0;
 
     .icons {
         @include icons;

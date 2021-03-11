@@ -1,9 +1,5 @@
 .skills-stack {
-    padding: 40px  0 0;
-
-    [class*=col-] {
-        margin: 10px auto;
-    }
+    padding: 40px 60px;
 
     .icons {
         font-size: 64px;
@@ -57,5 +53,11 @@
 
     .yarn {
         color: #2F8AB5;
+    }
+}
+
+@media (max-width: 1200px) {
+    .skills-stack {
+        flex-direction: column;
     }
 }

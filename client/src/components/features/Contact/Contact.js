@@ -11,7 +11,7 @@ class Contact extends React.Component {
         return(
             <div className="section container-fluid">
                 <SectionTitle>Kontakt</SectionTitle>
-                <div className="contact">
+                <div className="section-bg contact">
                     <div className="row">
                         <div className="address col-md-4 d-flex justify-content-center">
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="icons"/>
