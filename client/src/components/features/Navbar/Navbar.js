@@ -43,7 +43,7 @@ const NavBar = (props) => {
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/kontakt' className="link">
+                <NavLink to='/#kontakt' className="link">
                     <FontAwesomeIcon className="icon" icon={faEnvelope} />
                     <span>Kontakt</span>
                 </NavLink>

@@ -4,14 +4,24 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import '../Contact/Contact.scss';
 
 class Contact extends React.Component {
+       
+    handleScroll() {
+        
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
     render() {
         return(
-            <div className="section container-fluid">
+            <div className="section">
                 <SectionTitle>Kontakt</SectionTitle>
-                <div className="section-bg contact">
+                <div className="section-bg contact position-relative">
                     <div className="row">
                         <div className="address col-md-4 d-flex justify-content-center">
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="icons"/>
@@ -35,6 +45,12 @@ class Contact extends React.Component {
                             </div>
                         </div>
                     </div>
+                    <div className="reserved text-center">
+                        <p className="mt-5">© 2021 Anna Pawlik</p>
+                    </div>
+                    <button onClick={() => this.handleScroll()} className="back-to-top">
+                        <FontAwesomeIcon icon={faArrowUp} />
+                    </button>
                 </div>
             </div>
         );

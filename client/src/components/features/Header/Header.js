@@ -9,12 +9,12 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 class Header extends React.Component {
     render() {
         return(
-            <div className="header container-fluid">
+            <div className="header container-fluid d-flex align-items-center text-left">
                 <Navbar />
                 <div className="header-title">
                     <p>Anna Pawlik</p>
                     <p className="subtitle">Junior Front-End Developer</p>
-                    <div className="social-links">
+                    <div className="social-links d-inline-block">
                         <Link to={{ pathname: "https://github.com/AnnaPawlik"}} target="_blank">
                             <FontAwesomeIcon icon={faGithub} className="icon"/>
                         </Link>

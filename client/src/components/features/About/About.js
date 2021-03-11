@@ -17,13 +17,12 @@ class About extends React.Component {
                     <img src={Portfolio} alt="Portfolio" className="image rounded-circle p-4"/>
                     <div className="intro text-left">
                         <List type="unstyled">
-                            <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Jestem już po 30-tce więc robię kolejny szalony krok...</li>
                             <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Od 10 lat jestem związana z branżą beauty.</li>
                             <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> 2 lata temu podjęłam decyzję o zmianie branży i sprawdzeniu się jako Front-End Developer.</li>
                             <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Ukończyłam 9-miesięczny bootcamp Web Developer z zakresu front-end i back-end.</li>
                             <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Cały czas ćwiczę i rozwijam swoje umiejętności - szczególnie w JavaScript i React.</li>
-                            <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Chętnie nauczę się Wordpressa.</li>
                             <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Świetnie zarządzam czasem i organizacją pracy.</li>
+                            <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Jestem otwarta na nowe technologie.</li>
                         </List>
                     </div>
                 </div>
