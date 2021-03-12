@@ -50,7 +50,7 @@ const NavBar = (props) => {
         </Nav>
       </Navbar>
       <div className="navbar-mobile">
-        <Navbar color="faded" light>
+        <Navbar color="faded" light className="mobile">
           <NavbarToggler onClick={toggleNavbar} />
           <Collapse isOpen={!collapsed} navbar>
             <Nav navbar>

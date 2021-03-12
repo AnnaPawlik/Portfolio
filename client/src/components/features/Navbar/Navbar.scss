@@ -5,6 +5,7 @@
     justify-self: flex-start;
     position: fixed;
     width: 30%;
+    z-index: 9999;
 
     .navbar-links {
         display: flex;
@@ -38,5 +39,35 @@
     
     .navbar-mobile {
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        
+        .navbar-desktop {
+            display: none;
+        }
+
+        .mobile {
+            display: block;
+        }
+
+        .navbar-mobile {
+            display: block;
+            position: fixed;
+            right: 15px;
+            top: 15px;
+            z-index: 9998;
+            border: 0;
+            background: none;
+            font-size: 24px;
+            transition: all 0.4s;
+            outline: none !important;
+            line-height: 1;
+            cursor: pointer;
+            text-align: right;
+
+        }
     }
 }
