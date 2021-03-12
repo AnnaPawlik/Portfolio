@@ -1,6 +1,8 @@
 .header {
     height: 100vh;
     width: 100%;
+    font-size: 24px;
+    overflow: hidden;  
 
     &::after {
         content: "";
@@ -19,13 +21,13 @@
         position: relative;
         top: 0;
         left: 15%;
-        font-size: 64px;
+        font-size: 2.5em;
         color: #45505b;
         font-weight: 700;
         line-height: 56px;
-
+        
         .subtitle {
-            font-size: 26px;
+            font-size: 0.5em;
             font-family: "Popins", sans-serif;
             color:  #0563bb;
             overflow: hidden;
@@ -37,7 +39,7 @@
         }
 
         .social-links {
-            font-size: 26px;
+            font-size: 2rem;
             color: #45505b;
             margin-top: 15px;
 
@@ -62,4 +64,16 @@
 @keyframes caret {
     from, to { border-color: transparent }
     50% { border-color:  #0563bb }
+}
+
+@media (max-width: 767px) {
+    .header-title {
+        text-align: center;
+        left: 0;
+        font-size: 1.3em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
