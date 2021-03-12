@@ -19,9 +19,9 @@ class Contact extends React.Component {
 
     render() {
         return(
-            <div className="section">
+            <div className="section " id="contact">
                 <SectionTitle>Kontakt</SectionTitle>
-                <div className="section-bg contact position-relative">
+                <div className="section-bg contact position-relative" >
                     <div className="row">
                         <div className="address col-md-4 d-flex justify-content-center">
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="icons"/>

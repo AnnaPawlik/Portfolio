@@ -19,7 +19,7 @@ import '../Technology/Technology.scss';
 class Technology extends React.Component {
     render() {
         return(
-            <div className="section container-fluid w-75">
+            <div className="section container-fluid w-75" id="technology">
                 <SectionTitle>Technologie i narzędzia</SectionTitle>
                 <div className="skills-stack d-flex justify-content-around">
                     <div>

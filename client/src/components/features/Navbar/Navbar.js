@@ -1,6 +1,5 @@
 import React, { useState }from 'react';
-import { NavLink } from 'react-router-dom';
-import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, Nav, NavLink, NavItem } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
@@ -16,59 +15,59 @@ const NavBar = (props) => {
   
   return (
     <nav className="nav-menu">
-      <div className="navbar-desktop">
-        <div className="navbar navbar-links">
+      <Navbar className="navbar-desktop">
+        <Nav navbar className="navbar navbar-links">
             <div>
-                <NavLink to='/' className="link">
+                <NavLink href="#home" className="link">
                     <FontAwesomeIcon className="icon" icon={faHome} />
                     <span> Strona główna</span>
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/omnie' className="link">
+                <NavLink href="#about" className="link">
                     <FontAwesomeIcon className="icon" icon={faUser} />
                     <span>O mnie</span>
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/technologie' className="link">
+                <NavLink href="#technology" className="link">
                     <FontAwesomeIcon className="icon" icon={faServer} />
                     <span>Technologie</span>
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/projekty' className="link">
+                <NavLink href="#projects" className="link">
                     <FontAwesomeIcon className="icon" icon={faFolderOpen} />
                     <span>Projekty</span>
                 </NavLink>
             </div>
             <div>
-                <NavLink to='/#kontakt' className="link">
+                <NavLink href="#contact" className="link">
                     <FontAwesomeIcon className="icon" icon={faEnvelope} />
                     <span>Kontakt</span>
                 </NavLink>
             </div>
-        </div>
-      </div>
+        </Nav>
+      </Navbar>
       <div className="navbar-mobile">
         <Navbar color="faded" light>
           <NavbarToggler onClick={toggleNavbar} />
           <Collapse isOpen={!collapsed} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink to='/'>Strona główna</NavLink>
+                <NavLink href="#home">Strona główna</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to='/omnie'>O mnie</NavLink>
+                <NavLink href="#about">O mnie</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to='/omnie'>Technologie</NavLink>
+                <NavLink href="#technology">Technologie</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to='/projekty'>Projekty</NavLink>
+                <NavLink href="#projects">Projekty</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to='/kontakt'>Kontakt</NavLink>
+                <NavLink href="#contact">Kontakt</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

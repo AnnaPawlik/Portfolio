@@ -13,7 +13,7 @@ import '../Projects/Projects.scss';
 class Projects extends React.Component {
     render() {
         return(
-            <div className="section container-fluid">
+            <div className="section container-fluid" id="projects">
                 <SectionTitle>Projekty</SectionTitle>
                 <div className="d-flex flex-wrap justify-content-center">
                         <Card className="m-4 card">

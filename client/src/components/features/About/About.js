@@ -10,7 +10,7 @@ import '../About/About.scss';
 class About extends React.Component {
     render() {
         return(
-            <div className="section container-fluid">
+            <div className="section container-fluid" id="about">
                 <SectionTitle>O mnie</SectionTitle>
                 <SmallTitle>Szukam pracy</SmallTitle>
                 <div className="section-bg d-flex flex-wrap justify-content-center align-items-center">
