@@ -10,13 +10,13 @@ import '../About/About.scss';
 class About extends React.Component {
     render() {
         return(
-            <div className="section container-fluid" id="about">
+            <div className="section container-fluid w-75" id="about">
                 <SectionTitle>O mnie</SectionTitle>
                 <SmallTitle>Szukam pracy</SmallTitle>
                 <div className="section-bg d-flex flex-wrap justify-content-center align-items-center">
-                    <img src={Portfolio} alt="Portfolio" className="image rounded-circle p-4"/>
+                    <img src={Portfolio} alt="Portfolio" className="image rounded-circle p-4 m-4"/>
                     <div className="intro text-left">
-                        <List type="unstyled">
+                        <List type="unstyled" className="p-4 ml-4">
                             <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Od 10 lat jestem związana z branżą beauty.</li>
                             <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> 2 lata temu podjęłam decyzję o zmianie branży i sprawdzeniu się jako Front-End Developer.</li>
                             <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Ukończyłam 9-miesięczny bootcamp Web Developer z zakresu front-end i back-end.</li>
