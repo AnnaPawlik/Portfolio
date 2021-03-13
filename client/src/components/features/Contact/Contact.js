@@ -19,25 +19,25 @@ class Contact extends React.Component {
 
     render() {
         return(
-            <div className="section " id="contact">
+            <div className="section" id="contact">
                 <SectionTitle>Kontakt</SectionTitle>
                 <div className="section-bg contact position-relative" >
-                    <div className="row">
-                        <div className="address col-md-4 d-flex justify-content-center">
+                    <div className="d-flex flex-wrap justify-content-around">
+                        <div className="address px-1 d-flex justify-content-start align-items-center">
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="icons"/>
-                            <div className="ml-3 text-left justify-content-center">
+                            <div className="ml-3 text-left">
                                 <h4>Lokalizacja:</h4>
                                 <p>Zawiercie, woj. śląskie</p>
                             </div>
                         </div>
-                        <div className="email col-md-4 d-flex justify-content-center">
+                        <div className="email px-1 d-flex justify-content-start align-items-center">
                             <FontAwesomeIcon icon={faEnvelope} className="icons"/>
-                            <div className="ml-3 text-left">
+                            <div className="ml-3 text-left ">
                                 <h4>Email:</h4>
                                 <p>pawlikanna24@gmail.com</p>
                             </div>
                         </div>
-                        <div className="phone col-md-4 d-flex justify-content-center">
+                        <div className="phone px-1 d-flex justify-content-start align-items-center">
                             <FontAwesomeIcon icon={faPhoneAlt} className="icons"/>
                             <div className="ml-3 text-left">
                                 <h4>Telefon:</h4>

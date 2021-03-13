@@ -24,13 +24,16 @@
     }
 }
 
-@media (max-width: 786px) {
-    .contact {
+@media (max-width: 767px) {
+    .address {
+       width: 70%;
+    }
 
-        .phone {
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-        }
+    .phone {
+        width: 70%;
+    }
+
+    .email {
+        width: 70%;
     }
 }
