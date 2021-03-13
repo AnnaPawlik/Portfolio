@@ -14,19 +14,19 @@ const NavBar = (props) => {
   const toggleNavbar = () => setCollapsed(!collapsed);
   
   return (
-    <nav className="nav-menu">
+    <nav className="nav-menu d-flex">
       <Navbar className="navbar-desktop">
-        <Nav navbar className="navbar navbar-links">
+        <Nav navbar className="navbar navbar-links d-flex flex-column align-items-start">
             <div>
                 <NavLink href="#home" className="link">
                     <FontAwesomeIcon className="icon" icon={faHome} />
-                    <span> Strona główna</span>
+                    <span>Start</span>
                 </NavLink>
             </div>
             <div>
                 <NavLink href="#about" className="link">
                     <FontAwesomeIcon className="icon" icon={faUser} />
-                    <span>O mnie</span>
+                    <span>O</span><span className="ml-1 ">mnie</span>
                 </NavLink>
             </div>
             <div>
@@ -49,10 +49,10 @@ const NavBar = (props) => {
             </div>
         </Nav>
       </Navbar>
-      <div className="navbar-mobile">
-        <Navbar color="faded" light className="mobile">
+      <div className="navbar-mobile text-uppercase text-center p-1">
+        <Navbar color="faded" light className="vw-100">
           <NavbarToggler onClick={toggleNavbar} />
-          <Collapse isOpen={!collapsed} navbar>
+          <Collapse isOpen={!collapsed} navbar >
             <Nav navbar>
               <NavItem>
                 <NavLink href="#home">Strona główna</NavLink>
