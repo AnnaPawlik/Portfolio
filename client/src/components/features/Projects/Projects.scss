@@ -17,11 +17,26 @@
         width: 100%;
         height: 70%;
     }
+
+    .card-body {
+        min-height: 250px;
+    }
 }
 
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .card {
         width: 100%;
+        height: 100%;
     }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .card {
+        height: 100%;
+
+        .img {
+            height: 300px;
+        }
+    }  
 }
