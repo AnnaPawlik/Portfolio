@@ -19,56 +19,68 @@ import '../Technology/Technology.scss';
 class Technology extends React.Component {
     render() {
         return(
-            <div className="section container-fluid w-75" id="technology">
+            <div className="section container-fluid" id="technology">
                 <SectionTitle>Technologie i narzędzia</SectionTitle>
-                <div className="skills-stack d-flex flex-wrap justify-content-around align-items-center">
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faHtml5} className="icons html"/>
-                        <span className="icons-title d-block m-2">HTML5</span>
+                <div className="skills-stack d-flex flex-wrap justify-content-center">
+                    <div className="d-flex p-2">
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faHtml5} className="icons html"/>
+                            <span className="icons-title m-2">HTML5</span>
+                        </div>
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faCss3Alt} className="icons css"/>
+                            <span className="icons-title m-2">CSS3</span>
+                        </div>
                     </div>
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faCss3Alt} className="icons css"/>
-                        <span className="icons-title d-block m-2">CSS3</span>
+                    <div className="d-flex p-2">
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faBootstrap} className="icons bootstrap"/>
+                            <span className="icons-title d-block m-2">Bootstrap</span>
+                        </div>
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <Icon icon={tailwindcssIcon} className="icons tailwind"/>
+                            <span className="icons-title d-block m-2">Tailwind CSS</span>
+                        </div>
                     </div>
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faSass} className="icons sass"/>
-                        <span className="icons-title d-block m-2">Sass</span>
-                    </div> 
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faBootstrap} className="icons bootstrap"/>
-                        <span className="icons-title d-block m-2">Bootstrap</span>
+                    <div className="d-flex p-2">
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faSass} className="icons sass"/>
+                            <span className="icons-title d-block m-2">Sass</span>
+                        </div>
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faJs} className="icons js"/>
+                            <span className="icons-title d-block m-2">JavaScript</span>
+                        </div>
                     </div>
-                    <div className="p-2">
-                        <Icon icon={tailwindcssIcon} className="icons tailwind"/>
-                        <span className="icons-title d-block m-2">Tailwind CSS</span>
-                    </div> 
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faJs} className="icons js"/>
-                        <span className="icons-title d-block m-2">JavaScript</span>
+                    <div className="d-flex p-2">
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faReact} className="icons react"/>
+                            <span className="icons-title d-block m-2">React+Redux</span>
+                        </div>
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faNode} className="icons node"/>
+                            <span className="icons-title d-block m-2">Node.js</span>
+                        </div>
                     </div>
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faReact} className="icons react"/>
-                        <span className="icons-title d-block m-2">React + Redux</span>
-                    </div> 
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faNode} className="icons node"/>
-                        <span className="icons-title d-block m-2">Node.js</span>
+                    <div className="d-flex p-2">
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faDatabase} className="icons db" />
+                            <span className="icons-title d-block m-2">MongoDB</span>
+                        </div>
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faGitAlt} className="icons git"/>
+                            <span className="icons-title d-block m-2">Git</span>
+                        </div>
                     </div>
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faDatabase} className="icons db" />
-                        <span className="icons-title d-block m-2">MongoDB</span>
-                    </div> 
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faGitAlt} className="icons git"/>
-                        <span className="icons-title d-block m-2">Git</span>
-                    </div>
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faNpm} className="icons npm"/>
-                        <span className="icons-title d-block m-2">NPM</span>
-                    </div> 
-                    <div className="p-2">
-                        <FontAwesomeIcon icon={faYarn} className="icons yarn"/>
-                        <span className="icons-title d-block m-2">YARN</span>
+                    <div className="d-flex p-2">
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faNpm} className="icons npm"/>
+                            <span className="icons-title d-block m-2">NPM</span>
+                        </div>
+                        <div className="d-flex flex-column align-items-center m-2">
+                            <FontAwesomeIcon icon={faYarn} className="icons yarn"/>
+                            <span className="icons-title d-block m-2">YARN</span>
+                        </div>
                     </div>
                 </div>
             </div>
