@@ -1,7 +1,11 @@
 .skills-stack {
     padding: 40px;
     margin: 0 20px;
-
+    
+    .skills {
+        width: 100px;
+    }
+    
     .icons {
         font-size: 64px;
         padding: 2px;
@@ -49,5 +53,10 @@
 
     .yarn {
         color: #2F8AB5;
+    }
+
+    svg {
+        width: 60px;
+        height: 60px;
     }
 }
