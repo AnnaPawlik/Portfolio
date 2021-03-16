@@ -10,10 +10,10 @@ import '../About/About.scss';
 class About extends React.Component {
     render() {
         return(
-            <div className="section container-fluid w-75" id="about">
+            <div className="section container-fluid" id="about">
                 <SectionTitle>O mnie</SectionTitle>
                 <SmallTitle>Szukam pracy</SmallTitle>
-                <div className="section-bg d-flex flex-wrap justify-content-center align-items-center">
+                <div className="section-bg d-flex flex-wrap justify-content-center align-items-center about">
                     <img src={Portfolio} alt="Portfolio" className="image rounded-circle p-4 m-4"/>
                     <div className="intro text-left">
                         <List type="unstyled" className="p-4 ml-4">
