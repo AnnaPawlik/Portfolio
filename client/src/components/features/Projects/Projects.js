@@ -22,7 +22,6 @@ class Projects extends React.Component {
                                 <CardTitle tag="h5" className="text-uppercase">Blog</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
                                 <CardText>Stack MERN: MongoDB, Express, React, Node.js, Tailwind CSS</CardText>
-                                <Link to={{pathname:"https://blogappmern.herokuapp.com/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
                                 <Link to={{pathname:"https://github.com/AnnaPawlik/Stack-MERN"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
                             </CardBody>
                         </Card>
