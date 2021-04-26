@@ -31,8 +31,10 @@ class Projects extends React.Component {
                                 <CardTitle tag="h5" className="text-uppercase">Sklep internetowy</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
                                 <CardText>React, Redux, Bootstrap</CardText>
-                                <Link to={{pathname:"https://homeshop-b1933.firebaseapp.com/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
-                                <Link to={{pathname:"https://github.com/AnnaPawlik/Final_Project"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                <div>
+                                    <Link to={{pathname:"https://homeshop-b1933.firebaseapp.com/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
+                                    <Link to={{pathname:"https://github.com/AnnaPawlik/Final_Project"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                </div>
                             </CardBody>
                         </Card>
                     </div>
@@ -43,8 +45,10 @@ class Projects extends React.Component {
                                 <CardTitle tag="h5" className="text-uppercase">Strona restauracji</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
                                 <CardText>HTML, CSS, JavaScript, Bootstrap</CardText>
-                                <Link to={{pathname:"https://annapawlik.github.io/Restaurant_Layout/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
-                                <Link to={{pathname:"https://github.com/AnnaPawlik/Restaurant_Layout"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                <div>
+                                    <Link to={{pathname:"https://annapawlik.github.io/Restaurant_Layout/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
+                                    <Link to={{pathname:"https://github.com/AnnaPawlik/Restaurant_Layout"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                </div>
                             </CardBody>
                         </Card>
                         <Card className="m-4 card">
@@ -53,8 +57,10 @@ class Projects extends React.Component {
                                 <CardTitle tag="h5" className="text-uppercase">Strona biura podróży</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
                                 <CardText>HTML, Sass, JavaScript</CardText>
-                                <Link to={{pathname:"https://annapawlik.github.io/Travel_Project/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
-                                <Link to={{pathname:"https://github.com/AnnaPawlik/Travel_Project"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                <div>
+                                    <Link to={{pathname:"https://annapawlik.github.io/Travel_Project/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
+                                    <Link to={{pathname:"https://github.com/AnnaPawlik/Travel_Project"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                </div>
                             </CardBody>
                         </Card>
                     </div>
@@ -65,8 +71,10 @@ class Projects extends React.Component {
                                 <CardTitle tag="h5" className="text-uppercase">Cięcie PSD do HTML</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
                                 <CardText>HTML, Sass</CardText>
-                                <Link to={{pathname:"https://annapawlik.github.io/Picture_perfect/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
-                                <Link to={{pathname:"https://github.com/AnnaPawlik/Picture_perfect"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                <div>
+                                    <Link to={{pathname:"https://annapawlik.github.io/Picture_perfect/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
+                                    <Link to={{pathname:"https://github.com/AnnaPawlik/Picture_perfect"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                </div>
                             </CardBody>
                         </Card>
                         <Card className="m-4 card">
@@ -75,8 +83,10 @@ class Projects extends React.Component {
                                 <CardTitle tag="h5" className="text-uppercase">Panel administracyjny</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
                                 <CardText>HTML, Sass, JavaScript</CardText>
-                                <Link to={{pathname:"https://annapawlik.github.io/Administration_panel/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
-                                <Link to={{pathname:"https://github.com/AnnaPawlik/Administration_panel"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                <div>
+                                    <Link to={{pathname:"https://annapawlik.github.io/Administration_panel/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
+                                    <Link to={{pathname:"https://github.com/AnnaPawlik/Administration_panel"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                </div>
                             </CardBody>
                         </Card>
                     </div>
