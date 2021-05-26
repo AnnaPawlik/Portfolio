@@ -8,6 +8,8 @@ import Restaurant from '../../images/Restaurant.jpg';
 import Biuro from '../../images/Biuro.jpg';
 import Sklep_int from '../../images/Sklep_int.jpg';
 import Blog from '../../images/Blog.jpg';
+import Projekt from '../../images/Projekt_grupowy.png';
+import Planner from '../../images/Planner.png';
 import '../Projects/Projects.scss';
 
 class Projects extends React.Component {
@@ -16,16 +18,31 @@ class Projects extends React.Component {
             <div className="section container-fluid" id="projects">
                 <SectionTitle>Projekty</SectionTitle>
                 <div className="d-flex flex-wrap justify-content-center">
-                        <Card className="m-4 card">
-                            <CardImg top width="100%" src={Blog} alt="Card image cap" className="img"/>
-                            <CardBody className="border-top border-light card-body">
-                                <CardTitle tag="h5" className="text-uppercase">Blog</CardTitle>
-                                <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
-                                <CardText>Stack MERN: MongoDB, Express, React, Node.js, Tailwind CSS</CardText>
-                                <Link to={{pathname:"https://github.com/AnnaPawlik/Stack-MERN"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
-                            </CardBody>
-                        </Card>
-                        <Card className="m-4 card">
+                    <Card className="m-4 card">
+                        <CardImg top width="100%" src={Planner} alt="Card image cap" className="img"/>
+                        <CardBody className="border-top border-light card-body">
+                        <CardTitle tag="h5" className="text-uppercase">Planer dzienny</CardTitle>
+                        <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
+                        <CardText>React</CardText>
+                            <div>
+                                <Link to={{pathname:"https://github.com/AnnaPawlik/Daily-planner"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                            </div>
+                        </CardBody>
+                    </Card>
+                    <Card className="m-4 card">
+                        <CardImg top width="100%" src={Projekt} alt="Card image cap" className="img"/>
+                        <CardBody className="border-top border-light card-body">
+                        <CardTitle tag="h5" className="text-uppercase">Projekt grupowy</CardTitle>
+                        <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
+                        <CardText>HTML, Sass, JavaScript</CardText>
+                            <div>
+                                <Link to={{pathname:"https://github.com/Johny1010/WDP-1909-01"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                            </div>
+                        </CardBody>
+                    </Card>
+                </div>
+                <div className="d-flex flex-wrap justify-content-center">
+                    <Card className="m-4 card">
                             <CardImg top width="100%" src={Sklep_int} alt="Card image cap" className="img"/>
                             <CardBody className="border-top border-light card-body">
                                 <CardTitle tag="h5" className="text-uppercase">Sklep internetowy</CardTitle>
@@ -35,6 +52,15 @@ class Projects extends React.Component {
                                     <Link to={{pathname:"https://homeshop-b1933.firebaseapp.com/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
                                     <Link to={{pathname:"https://github.com/AnnaPawlik/Final_Project"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
                                 </div>
+                            </CardBody>
+                        </Card>
+                        <Card className="m-4 card">
+                            <CardImg top width="100%" src={Blog} alt="Card image cap" className="img"/>
+                            <CardBody className="border-top border-light card-body">
+                                <CardTitle tag="h5" className="text-uppercase">Blog</CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
+                                <CardText>Stack MERN: MongoDB, Express, React, Node.js, Tailwind CSS</CardText>
+                                <Link to={{pathname:"https://github.com/AnnaPawlik/Stack-MERN"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
                             </CardBody>
                         </Card>
                     </div>
