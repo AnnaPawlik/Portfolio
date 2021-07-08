@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Psd_html from '../../images/Psd_html.jpg';
 import Panel_adm from '../../images/Panel_adm.jpg';
 import Restaurant from '../../images/Restaurant.jpg';
+import Projekt2 from '../../images/Projekt.jpeg';
 import Biuro from '../../images/Biuro.jpg';
 import Sklep_int from '../../images/Sklep_int.jpg';
 import Blog from '../../images/Blog.jpg';
@@ -29,6 +30,8 @@ class Projects extends React.Component {
                             </div>
                         </CardBody>
                     </Card>
+                </div>
+                <div className="d-flex flex-wrap justify-content-center">
                     <Card className="m-4 card">
                         <CardImg top width="100%" src={Projekt} alt="Card image cap" className="img"/>
                         <CardBody className="border-top border-light card-body">
@@ -40,9 +43,7 @@ class Projects extends React.Component {
                             </div>
                         </CardBody>
                     </Card>
-                </div>
-                <div className="d-flex flex-wrap justify-content-center">
-                    <Card className="m-4 card">
+                        <Card className="m-4 card">
                             <CardImg top width="100%" src={Sklep_int} alt="Card image cap" className="img"/>
                             <CardBody className="border-top border-light card-body">
                                 <CardTitle tag="h5" className="text-uppercase">Sklep internetowy</CardTitle>
@@ -54,6 +55,8 @@ class Projects extends React.Component {
                                 </div>
                             </CardBody>
                         </Card>
+                    </div>
+                <div className="d-flex flex-wrap justify-content-center">
                         <Card className="m-4 card">
                             <CardImg top width="100%" src={Blog} alt="Card image cap" className="img"/>
                             <CardBody className="border-top border-light card-body">
@@ -63,12 +66,10 @@ class Projects extends React.Component {
                                 <Link to={{pathname:"https://github.com/AnnaPawlik/Stack-MERN"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
                             </CardBody>
                         </Card>
-                    </div>
-                <div className="d-flex flex-wrap justify-content-center">
                         <Card className="m-4 card" >
                             <CardImg top width="100%" src={Restaurant} alt="Card image cap" className="img"/>
                             <CardBody className="border-top border-light card-body">
-                                <CardTitle tag="h5" className="text-uppercase">Strona restauracji</CardTitle>
+                                <CardTitle tag="h5" className="text-uppercase">Projekt strony</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
                                 <CardText>HTML, CSS, JavaScript, Bootstrap</CardText>
                                 <div>
@@ -77,15 +78,29 @@ class Projects extends React.Component {
                                 </div>
                             </CardBody>
                         </Card>
-                        <Card className="m-4 card">
+                    </div>
+                    <div className="d-flex flex-wrap justify-content-center">
+                    <Card className="m-4 card">
                             <CardImg top width="100%" src={Biuro} alt="Card image cap" className="img"/>
                             <CardBody className="border-top border-light card-body">
-                                <CardTitle tag="h5" className="text-uppercase">Strona biura podróży</CardTitle>
+                                <CardTitle tag="h5" className="text-uppercase">Projekt strony</CardTitle>
                                 <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
                                 <CardText>HTML, Sass, JavaScript</CardText>
                                 <div>
                                     <Link to={{pathname:"https://annapawlik.github.io/Travel_Project/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
                                     <Link to={{pathname:"https://github.com/AnnaPawlik/Travel_Project"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
+                                </div>
+                            </CardBody>
+                        </Card>
+                        <Card className="m-4 card">
+                            <CardImg top width="100%" src={Projekt2} alt="Card image cap" className="img"/>
+                            <CardBody className="border-top border-light card-body">
+                                <CardTitle tag="h5" className="text-uppercase">Projekt strony</CardTitle>
+                                <CardSubtitle tag="h6" className="mb-2 text-muted">Technologie:</CardSubtitle>
+                                <CardText>HTML, Sass</CardText>
+                                <div>
+                                    <Link to={{pathname:"https://annapawlik.github.io/Clipboard-landing-page/"}} target="_blank" className="link btn btn-light mx-2">Demo</Link>
+                                    <Link to={{pathname:"https://github.com/AnnaPawlik/Clipboard-landing-page"}} target="_blank" className="link btn btn-light mx-2">Github</Link>
                                 </div>
                             </CardBody>
                         </Card>
