@@ -5,13 +5,14 @@ import Technology from '../../features/Technology/Technology';
 import Projects from '../../features/Projects/Projects';
 import Contact from '../../features/Contact/Contact';
 import '../../../styles/global.scss';
+import { items } from '../../../data';
 
 const Home = () => (
-    <div className="text-center" id="home">
+    <div className="home text-center" id="home">
         <Header />
         <About />
         <Technology />
-        <Projects />
+        <Projects items={items}/>
         <Contact />
     </div>
 );

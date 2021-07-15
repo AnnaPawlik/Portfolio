@@ -1,26 +1,16 @@
-#about {
-    width: 90%;
-}
-
-.image {
-    width: 190px;
-    height: 190px;
-    filter: opacity(0.8);
-}
-
 .intro {
-    font-size: 1.5em;
-        
-    .arrow {
-        color: #0563bb;
-        font-size: 20px;
-        padding-right: 2px;
-        margin-right: 6px;
+    padding:  40px;
+
+    img {
+        width: 16px;
+        height: 24px;
+        fill: #fbd784;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .intro {
         font-size: 1em;
+        padding: 0;
     }
 }

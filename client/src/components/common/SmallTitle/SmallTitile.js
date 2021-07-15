@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import '../SmallTitle/SmallTitle.scss';
 
 const SmallTitle = ({ children }) => (
-  <h2 className="small-title text-uppercase text-center">
+  <h2 className="small-title">
      {children}
   </h2>
 );

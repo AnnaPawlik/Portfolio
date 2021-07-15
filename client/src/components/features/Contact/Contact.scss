@@ -1,20 +1,27 @@
 @import '../../../styles/mixins';
 
-.contact {
-   padding: 60px 0 20px;
+#contact {
+   padding: 0 20px 30px;
+   margin-bottom: 0;
+   position: relative;
+   
+    .footer {
+        justify-content:space-between;
+    }
 
     .icons {
         @include icons;
-        background-color:#0563bb;
-        color: #f2f3f5;
+        background-color: rgba(255,255,255, 0.1);
+        color: #fbd784;
+        overflow: visible;
     }
 
     .back-to-top {
         position: absolute;
-        bottom: 10px;
+        bottom: 30px;
         right: 10px;
-        background-color:#0563bb;
-        color: #f2f3f5;
+        background-color: rgba(255,255,255, 0.1);
+        color: #fbd784;
         padding: 10px 18px;
         margin-bottom: 8px;
         border-radius: 50px;
@@ -24,16 +31,9 @@
     }
 }
 
-@media (max-width: 767px) {
-    .address {
-       width: 70%;
-    }
+@media (max-width: 768px) {
 
-    .phone {
-        width: 70%;
-    }
-
-    .email {
-        width: 70%;
+    .footer-icons {
+        width: 100%;
     }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const PageContainer = ({ children }) => (
-    <div className="container-fluid">
+    <div>
         { children }
     </div>
 );

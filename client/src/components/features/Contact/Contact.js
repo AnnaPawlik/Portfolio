@@ -19,40 +19,37 @@ class Contact extends React.Component {
 
     render() {
         return(
-            <div className="section" id="contact">
-                <SectionTitle>Kontakt</SectionTitle>
-                <div className="section-bg contact position-relative" >
-                    <div className="d-flex flex-wrap justify-content-around">
-                        <div className="address px-1 d-flex justify-content-start align-items-center">
+            <footer className="section container-fluid" id="contact">
+                <div className="content content-wrapper ">
+                    <SectionTitle>Kontakt</SectionTitle>
+                </div>
+                <div className="footer container mt-5 d-flex flex-wrap justify-content-center">
+                        <div className="footer-icons px-5 d-flex justify-content-start align-items-center">
                             <FontAwesomeIcon icon={faMapMarkerAlt} className="icons"/>
                             <div className="ml-3 text-left">
-                                <h4>Lokalizacja:</h4>
+                                <h5>Lokalizacja:</h5>
                                 <p>Zawiercie, woj. śląskie</p>
                             </div>
                         </div>
-                        <div className="email px-1 d-flex justify-content-start align-items-center">
+                        <div className="footer-icons px-5 d-flex justify-content-start align-items-center">
                             <FontAwesomeIcon icon={faEnvelope} className="icons"/>
                             <div className="ml-3 text-left ">
-                                <h4>Email:</h4>
+                                <h5>Email:</h5>
                                 <p>pawlikanna24@gmail.com</p>
                             </div>
                         </div>
-                        <div className="phone px-1 d-flex justify-content-start align-items-center">
+                        <div className="footer-icons px-5 d-flex justify-content-start align-items-center">
                             <FontAwesomeIcon icon={faPhoneAlt} className="icons"/>
                             <div className="ml-3 text-left">
-                                <h4>Telefon:</h4>
+                                <h5>Telefon:</h5>
                                 <p>+48 507 102 268</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="reserved text-center">
-                        <p className="mt-5">© 2021 Anna Pawlik</p>
-                    </div>
+                    </div>                      
                     <button onClick={() => this.handleScroll()} className="back-to-top">
-                        <FontAwesomeIcon icon={faArrowUp} />
+                            <FontAwesomeIcon icon={faArrowUp} />
                     </button>
-                </div>
-            </div>
+            </footer>           
         );
     }
 };

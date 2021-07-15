@@ -1,27 +1,20 @@
 import React from 'react';
 import SectionTitle from '../../common/SectionTitle/SectionTitle';
-import SmallTitle from '../../common/SmallTitle/SmallTitile';
-import Portfolio from '../../images/Portfolio.jpg';
-import { List } from 'reactstrap';
-import { FontAwesomeIcon } from'@fortawesome/react-fontawesome';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+// import Portfolio from '../../images/Portfolio.jpg';
+// import arrowIcon from '../../images/right-arrow.svg';
 import '../About/About.scss';
 
 class About extends React.Component {
     render() {
         return(
             <div className="section container-fluid" id="about">
-                <SectionTitle>O mnie</SectionTitle>
-                <SmallTitle>Szukam pracy</SmallTitle>
-                <div className="section-bg d-flex flex-wrap justify-content-center align-items-center about">
-                    <img src={Portfolio} alt="Portfolio" className="image rounded-circle p-4 m-4"/>
+                <div className="content content-wrapper">
+                    <SectionTitle>O mnie</SectionTitle>
                     <div className="intro text-left">
-                        <List type="unstyled" className="p-4 ml-4">
-                            <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Szukam możliwości rozpoczęcia kariery zawodowej jako Junior Front-End Developer.</li>
-                            <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Ukończyłam 9-miesięczny bootcamp Web Developer z zakresu front-end i back-end.</li>
-                            <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Znam podstawy HTML, CSS, JS, React pozwalające mi stworzyć podstawowe UI aplikacji.</li>
-                            <li><FontAwesomeIcon icon={faChevronRight} className="arrow" /> Świetnie zarządzam czasem i organizacją pracy.</li>
-                        </List>
+                        <p>Szukam możliwości rozpoczęcia kariery zawodowej jako Junior Front-End Developer.</p>
+                        <p> Ukończyłam 9-miesięczny bootcamp Web Developer z zakresu front-end i back-end.</p>
+                        <p> Znam podstawy HTML, CSS, JS, React pozwalające mi stworzyć podstawowe UI aplikacji.</p>
+                        <p>Świetnie zarządzam czasem i organizacją pracy.</p>
                     </div>
                 </div>
             </div>
