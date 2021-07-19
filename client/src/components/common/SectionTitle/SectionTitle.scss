@@ -21,3 +21,10 @@
         text-transform: uppercase;
     }
 }
+
+@media (max-width: 768px) {
+    
+    .section-title {
+        width: 100%;
+    }
+}
